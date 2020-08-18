@@ -80,8 +80,8 @@ alias UI.Powerline.IsAvailable="UI.Color.IsAvailable && test -z \${NO_UNICODE-} 
 if UI.Powerline.IsAvailable
 then
   UI_Powerline_PointingArrow=$'\u27a1'
-  UI_Powerline_ArrowLeft=$'\ue0b2'
-  UI_Powerline_ArrowRight=$'\ue0b0'
+  UI_Powerline_ArrowLeft=$'\u25c0'
+  UI_Powerline_ArrowRight=$'\u25b6'
   UI_Powerline_ArrowRightDown=$'\u2198'
   UI_Powerline_ArrowDown=$'\u2B07'
   UI_Powerline_PlusMinus=$'\ue00b1'
